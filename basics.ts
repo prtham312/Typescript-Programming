@@ -59,3 +59,8 @@ let readonlyTuple : readonly [number , boolean , string] = [5 , true , "kaise ho
 
 //Named Tuples
 let namedTuple : [x : number , y : string] = [32 , "43"]
+
+//Destructuring
+const graphs: [number, number] = [25.6, 53.9];
+const [x, y] = graphs;
+console.log(x);
