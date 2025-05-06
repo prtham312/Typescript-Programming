@@ -72,3 +72,12 @@ const car : {name : string , model : string , year : number} = {
     model : "X6",
     year : 1998
 };
+console.log(car)
+
+
+//Optional Object in TS
+const cars : {name : string , model ?: string , year ?: number} = {
+    name : "BMW",
+};
+cars.model = "X6"
+console.log(cars)
