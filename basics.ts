@@ -90,3 +90,16 @@ nameAgeMap.Jack = 25; // no error
 // nameAgeMap.Marco = "32" //it will give error here
 nameAgeMap.marson = 32
 console.log(nameAgeMap.Jack);
+
+
+//Enums
+//A group of constants whose value can't be changed
+enum directions{ //this is defalt enums
+    north,  //0
+    south,  //1
+    east,   //2
+    west    //3
+}
+let currentDir = directions.south;
+console.log(currentDir);
+// currentDir = "North" //We cannot assign value here as it is already assosciated constant with enum
