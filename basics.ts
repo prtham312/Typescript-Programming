@@ -64,3 +64,11 @@ let namedTuple : [x : number , y : string] = [32 , "43"]
 const graphs: [number, number] = [25.6, 53.9];
 const [x, y] = graphs;
 console.log(x);
+
+
+//Objects
+const car : {name : string , model : string , year : number} = {
+    name : "BMW",
+    model : "X6",
+    year : 1998
+};
