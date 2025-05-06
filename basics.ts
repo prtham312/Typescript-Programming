@@ -125,3 +125,22 @@ enum StatusCodes {
   
   console.log(StatusCodes.NotFound);
   console.log(StatusCodes.Success);
+
+
+  // Type Aliases
+  type carName =  string
+  type carModel = string
+  type carYear = number
+  type Cars = {
+    name : carName,
+    model : carModel,
+    year : carYear
+  }
+ const carname : carName = "Mercedes";
+ const carmodel : carModel = "E - Class";
+ const carr : Cars = {
+    name : carname,
+    model : carmodel,
+    year : 55
+ }
+ console.log(carr)
