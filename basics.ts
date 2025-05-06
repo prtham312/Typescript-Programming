@@ -144,3 +144,16 @@ enum StatusCodes {
     year : 55
  }
  console.log(carr)
+
+
+ //Interfaces
+ //Works on objects only
+ interface Rectacnge {
+    height : number ,
+    width : number
+ }
+ const rectangle : Rectacnge = {
+    height : 32,
+    width : 64
+ }
+ console.log(`Perimeter is ${2*(rectangle.height + rectangle.width)}`)
