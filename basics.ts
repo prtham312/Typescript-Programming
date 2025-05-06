@@ -55,3 +55,7 @@ console.log(ourTuple) ;
 //readonly tuple
 let readonlyTuple : readonly [number , boolean , string] = [5 , true , "kaise ho"]
 // readonlyTuple.push("helo")  //will give error here as it readonly Tuple
+
+
+//Named Tuples
+let namedTuple : [x : number , y : string] = [32 , "43"]
