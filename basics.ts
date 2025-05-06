@@ -47,4 +47,7 @@ console.log(head);
 
 //tuple 
 let ourTuple : [number , boolean , string]
-ourTuple = [42 , true , "hello"]
+ourTuple = [42 , true , "hello"] //if any parameter is missing it will throw an error
+ourTuple.push("Adding data"); //Data can be added here in tuple
+ourTuple.pop() // Can be popped also
+console.log(ourTuple) ;
