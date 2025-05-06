@@ -32,3 +32,8 @@ strArr.push("Akshat");
 strArr.push("Ojasva");
 // strArr.push(33) number will give error as it takes only string array input
 console.log(strArr)
+
+
+//ReadOnly
+let rArray : readonly string[] = ["Johnny"];
+// rArray.push("helena") will give error as it is readonly
