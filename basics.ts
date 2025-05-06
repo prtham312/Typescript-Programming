@@ -103,3 +103,13 @@ enum directions{ //this is defalt enums
 let currentDir = directions.south;
 console.log(currentDir);
 // currentDir = "North" //We cannot assign value here as it is already assosciated constant with enum
+
+//Initialized enums
+enum direction{ //this is defalt enums
+    north  = 5,  //5
+    south,  //6
+    east,   //7
+    west    //8
+}
+let currentDirection = direction.south;
+console.log(currentDirection);
