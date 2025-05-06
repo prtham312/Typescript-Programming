@@ -157,3 +157,14 @@ enum StatusCodes {
     width : 64
  }
  console.log(`Perimeter is ${2*(rectangle.height + rectangle.width)}`)
+
+ //extended interface
+ interface color extends Rectacnge {
+    colour : string
+ }
+ const rectangular : color = {
+    height : 34,
+    width : 68,
+    colour : "red"
+ }
+ console.log(`Colour is ${rectangular.colour} and Perimeter is ${2*(rectangular.height + rectangular.width)}`)
