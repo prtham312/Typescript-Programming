@@ -37,3 +37,9 @@ console.log(strArr)
 //ReadOnly
 let rArray : readonly string[] = ["Johnny"];
 // rArray.push("helena") will give error as it is readonly
+
+//TypeInference in TS
+let numbers = [1,2,3,4,5];
+// numbers.push("6")  will give error as TS infered it as numbers
+let head : number = numbers[0]
+console.log(head);
