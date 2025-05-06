@@ -12,3 +12,8 @@ let anyword : any = 33;
 anyword = "hello";
 anyword = true;
 //Here any allows to assign any data type without any error
+
+//Unknown : it allows limited access , we can't assign unknown data types
+let unknownWord : unknown = 1;
+unknownWord = true; //Here no error
+//We cannot assign value to another value in TS
