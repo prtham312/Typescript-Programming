@@ -81,3 +81,12 @@ const cars : {name : string , model ?: string , year ?: number} = {
 };
 cars.model = "X6"
 console.log(cars)
+
+
+//Indexing object 
+//Here we can define empty objects without giving within curly braces.
+const nameAgeMap: { [index: string]: number } = {};
+nameAgeMap.Jack = 25; // no error
+// nameAgeMap.Marco = "32" //it will give error here
+nameAgeMap.marson = 32
+console.log(nameAgeMap.Jack);
