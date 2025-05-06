@@ -168,3 +168,11 @@ enum StatusCodes {
     colour : "red"
  }
  console.log(`Colour is ${rectangular.colour} and Perimeter is ${2*(rectangular.height + rectangular.width)}`)
+
+
+ //Union | (OR)
+ function printStatusCode(code: string | number) {
+    console.log(`My status code is ${code}.`)
+  }
+  printStatusCode(404);
+  printStatusCode('200');
