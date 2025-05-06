@@ -51,3 +51,7 @@ ourTuple = [42 , true , "hello"] //if any parameter is missing it will throw an 
 ourTuple.push("Adding data"); //Data can be added here in tuple
 ourTuple.pop() // Can be popped also
 console.log(ourTuple) ;
+
+//readonly tuple
+let readonlyTuple : readonly [number , boolean , string] = [5 , true , "kaise ho"]
+// readonlyTuple.push("helo")  //will give error here as it readonly Tuple
