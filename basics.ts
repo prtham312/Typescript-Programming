@@ -43,3 +43,8 @@ let numbers = [1,2,3,4,5];
 // numbers.push("6")  will give error as TS infered it as numbers
 let head : number = numbers[0]
 console.log(head);
+
+
+//tuple 
+let ourTuple : [number , boolean , string]
+ourTuple = [42 , true , "hello"]
