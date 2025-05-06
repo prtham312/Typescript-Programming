@@ -19,3 +19,7 @@ unknownWord = true; //Here no error
 //We cannot assign value to another value in TS
 
 // let neverWord : never = true;  Will give error always
+
+//undefined and null
+let undefinedWord : undefined = undefined;
+let nullWord : null = null;
