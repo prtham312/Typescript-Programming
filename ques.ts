@@ -11,3 +11,12 @@
     console.log(values("hello"));
     console.log(values(false));
 }
+
+{
+//Q2
+
+    function log(message : string) : void {
+        console.log(message);
+    }
+    log("this is for testing")
+}
