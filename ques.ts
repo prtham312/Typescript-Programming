@@ -81,3 +81,11 @@
     printId(32)
     printId("ho")
 }
+
+{
+    //Q9 Create a function multiply that takes two number parameters and returns their product. Add explicit type annotations.
+    function multiply(a: number , b: number): number{
+        return a*b;
+    }
+    console.log(multiply(2,3))
+}
