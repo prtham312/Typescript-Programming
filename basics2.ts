@@ -23,4 +23,10 @@ function addition(a : number , b: number , c ?: number) : number {
 }
 console.log(addition(2,3));
 console.log(addition(2,3,4));
-// console.log (addition(1,2,"32")) //this will give error as it only accpets number
+// console.log (addition(1,2,"32")) //this will give error as it only accpets 
+
+//Default Parameters
+function power(value : number , exponent : number = 2) : number {
+    return value * exponent;
+}
+console.log(power(2))
