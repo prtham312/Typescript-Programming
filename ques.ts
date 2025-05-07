@@ -49,3 +49,13 @@
     }
     console.log(myBook)
 }
+
+{
+    //Q6 Define an enum Weekday with values for Monday, Tuesday, and Wednesday. Assign Monday the value 1, and let the others auto-increment.
+    enum Weekday {
+        Monday = 1,
+        Tuesday,
+        Wednesday
+    }
+    console.log(Weekday.Wednesday)
+}
