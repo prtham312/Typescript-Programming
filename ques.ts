@@ -89,3 +89,17 @@
     }
     console.log(multiply(2,3))
 }
+
+{
+    //Q10 Define a union type Status that can be "active", "inactive", or number. Then, write a function getStatus that returns a Status value.
+
+    type status = "Active" | "Inactive" | number;
+    function getStatus(id : number) : status {
+        if(id === 1) return "Active"
+        else if(id === 0) return "Inactive"
+        else return id
+    }
+    console.log(getStatus(1));
+    console.log(getStatus(0));
+    console.log(getStatus(63));
+}
