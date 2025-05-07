@@ -59,3 +59,17 @@
     }
     console.log(Weekday.Wednesday)
 }
+
+{
+    //Q7 Create a type alias Point for an object with x (number) and y (number). Then, write an interface Shape with a draw method that accepts a Point and returns void.
+
+    type Point = {
+        x : number,
+        y : number
+    }
+    interface shape {
+        draw:(point:Point)=>void
+    }
+    
+}
+
