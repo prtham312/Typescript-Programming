@@ -42,3 +42,9 @@ function add_rest( a : number , b : number , ...rest : number[]) : number{
     return a + b + rest.reduce((a,b) => a + b , 0)
 }
 console.log(add_rest(10,10,10,10,10,10,10,10,10,10))
+
+
+//type alias in functions
+type negate = (value : number) => number;
+const negateNumber : negate = (value) => value * -1
+console.log(negateNumber(10))
