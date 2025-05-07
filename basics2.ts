@@ -32,7 +32,13 @@ function power(value : number , exponent : number = 2) : number {
 console.log(power(2))
 
 // Named Parameters
-function divide({divisor , dividend} : {divisor : number , dividend : number} ){
+function divide({divisor , dividend} : {divisor : number , dividend : number} ) : number{
     return dividend/divisor;
 }
 console.log(divide({dividend : 10 , divisor : 2})) // here named parameters are provided , we cannot give without giving name
+
+//Rest Parameters
+function add_rest( a : number , b : number , ...rest : number[]) : number{
+    return a + b + rest.reduce((a,b) => a + b , 0)
+}
+console.log(add_rest(10,10,10,10,10,10,10,10,10,10))
