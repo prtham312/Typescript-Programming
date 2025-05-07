@@ -73,3 +73,11 @@
     
 }
 
+{
+    //Q8 Write a function printId that accepts a parameter of type string | number and logs it.
+    function printId(value : number | string) : void{
+            console.log(value , typeof value)
+    } 
+    printId(32)
+    printId("ho")
+}
