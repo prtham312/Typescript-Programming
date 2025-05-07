@@ -30,3 +30,9 @@ function power(value : number , exponent : number = 2) : number {
     return value * exponent;
 }
 console.log(power(2))
+
+// Named Parameters
+function divide({divisor , dividend} : {divisor : number , dividend : number} ){
+    return dividend/divisor;
+}
+console.log(divide({dividend : 10 , divisor : 2})) // here named parameters are provided , we cannot give without giving name
