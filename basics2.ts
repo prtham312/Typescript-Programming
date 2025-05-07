@@ -16,3 +16,11 @@ function multiply(a : number , b : number) : number {
     return a * b;
 }
 console.log(multiply(2,5))
+
+//optional parameters
+function addition(a : number , b: number , c ?: number) : number {
+    return a + b + (c || 0)
+}
+console.log(addition(2,3));
+console.log(addition(2,3,4));
+// console.log (addition(1,2,"32")) //this will give error as it only accpets number
