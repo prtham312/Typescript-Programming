@@ -10,3 +10,9 @@ function sayHello() : void {
     console.log("kaise ho bhai log")
 }
 sayHello();
+
+//Type Parameter functions
+function multiply(a : number , b : number) : number {
+    return a * b;
+}
+console.log(multiply(2,5))
